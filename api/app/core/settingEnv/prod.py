@@ -1,8 +1,6 @@
-from os import getenv
-
 from .base import BaseEnvironment
 
 
 class ProductionSettings(BaseEnvironment):
     DEBUG = False
-    DATABASE_URL = getenv("DATABASE_URL")
+    PROJECT_NAME = 'Sugarcane Disease Predictor API Prod'

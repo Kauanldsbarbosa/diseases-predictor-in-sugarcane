@@ -1,4 +1,3 @@
 class BaseEnvironment:
     DEBUG: bool = False
-    DATABASE_URL: str = ''
-    PROJECT_NAME: str = 'My Project'
+    PROJECT_NAME: str = 'Sugarcane Disease Predictor API'

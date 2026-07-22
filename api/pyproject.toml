@@ -12,22 +12,21 @@ requires-python = ">=3.11"
 dependencies = [
     "fastapi (>=0.115.12,<0.116.0)",
     "uvicorn[standard] (>=0.34.0,<0.35.0)",
-    "sqlalchemy (>=2.0.40,<3.0.0)",
-    "alembic (>=1.15.2,<2.0.0)",
     "pydantic (>=2.11.2,<3.0.0)",
     "httpx (>=0.28.1,<0.29.0)",
     "python-dotenv (>=1.1.0,<2.0.0)",
-    "asyncpg (>=0.30.0,<0.31.0)",
-    "psycopg[binary] (>=3.2.6,<4.0.0)",
-
     "pytest (>=8.3.5,<9.0.0)",
     "pytest-asyncio (>=0.26.0,<0.27.0)",
-    "aiosqlite (>=0.21.0,<0.22.0)",
     "keras (>=3.0.0,<4.0.0)",
     "pillow (>=10.0.0,<13.0.0)",
     "numpy (>=1.26.0,<2.0.0)",
-    "python-multipart (>=0.0.12,<1.0.0)"
+    "python-multipart (>=0.0.12,<1.0.0)",
+    "optree (>=0.11.0,<1.0.0)",
+    "tensorflow (>=2.15.0,<3.0.0)"
 ]
+
+
+
 
 
 
