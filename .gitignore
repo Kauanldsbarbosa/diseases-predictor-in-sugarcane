@@ -1,1 +1,52 @@
-dataset
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# Environment variables
+*.env
+# VS Code settings
+.vscode/
+
+# IDEs
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Logs
+*.log
+
+# Testing
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# coverage reports
+.coverage
+*.cover
+coverage.xml
+*.lcov
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Database files (caso esteja usando SQLite no dev)
+*.db
+*.sqlite3
+
+# Others
+.DS_Store
